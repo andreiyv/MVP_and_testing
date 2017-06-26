@@ -23,3 +23,7 @@ public class ClickCounterModel {
         prefs.edit().putInt("counter", getCount() + 1).commit();
     }
 }
+
+
+
+
