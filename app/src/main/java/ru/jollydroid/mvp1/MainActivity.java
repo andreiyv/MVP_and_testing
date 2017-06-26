@@ -12,7 +12,7 @@ import android.view.View;
 import com.hannesdorfmann.mosby.mvp.MvpActivity;
 
 import javax.inject.Inject;
-
+// http://jollydroid.ru/notebook/2016-09-13-Dagger-2-MVP-Unit-Tests.html
 public class MainActivity extends MvpActivity<MainView, MainPresenter> implements MainView {
 
     private FloatingActionButton fab;
